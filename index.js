@@ -6,6 +6,11 @@ app.get('/', (req,res)=>{
     res.send('Hello World')
 });
 
+
+app.get('/contact', (req,res)=>{
+    res.send('Contact Us')
+});
+
 app.get('/about', (req,res)=>{
     res.send('About Us')
 });
